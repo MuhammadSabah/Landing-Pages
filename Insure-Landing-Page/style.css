@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.btn {
+  transition: all 0.2s;
+}
+.btn:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: #333;
+}
+/* ****************************************** */
+/* HEADER  */
+/* ****************************************** */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 7.4rem;
+}
+
+.brand-logo {
+  width: 14rem;
+  cursor: pointer;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 4.8rem;
+  font-weight: 700;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s;
+  padding: 0.6rem 1.2rem;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+/* ****************************************** */
+/* HERO-SECTION  */
+/* ****************************************** */
+.hero-section {
+  padding: 0 0 9.6rem 0;
+  margin-bottom: 28rem;
+}
+
+.hero-background {
+  background-color: hsl(256, 26%, 20%);
+  position: relative;
+  background-image: url("img/bg-pattern-intro-left-desktop.svg"),
+    url("img/bg-pattern-intro-right-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 12rem 0 5.4rem 0;
+}
+
+.hero-section-header {
+  font-size: 5.2rem;
+  color: white;
+}
+
+.hero-section-text {
+  font-size: 1.6rem;
+  color: whitesmoke;
+  line-height: 1.6;
+  font-family: "Karla", serif;
+  font-weight: 400;
+}
+
+.hero-section-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 1.2rem 2.4rem;
+  align-self: flex-start;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.hero-section-img {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: auto;
+}
+/* ****************************************** */
+/* FEATURES SECTION  */
+/* ****************************************** */
+.features-section {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 16rem;
+}
+hr {
+  width: 40%;
+}
+.features-title {
+  font-size: 4.6rem;
+  padding-top: 4.4rem;
+  padding-bottom: 4.4rem;
+}
+.icon-img {
+  margin-bottom: 2.2rem;
+}
+.features-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8rem;
+}
+
+.secondary-features-title {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+.features-text {
+  font-size: 1.5rem;
+  font-family: "Karla", serif;
+}
+/* ****************************************** */
+/* CTA SECTION  */
+/* ****************************************** */
+.cta-section {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 16rem;
+}
+.background-div {
+  background-color: hsl(256, 26%, 20%);
+  padding: 10rem 0 10rem 0;
+  background-image: url("img/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 110%;
+}
+.inside-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+}
+.cta-header {
+  font-size: 4.6rem;
+  font-weight: 500;
+  color: white;
+}
+.cta-button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+/* ****************************************** */
+/* FOOTER  */
+/* ****************************************** */
+.footer {
+  background-color: hsl(0, 0%, 98%);
+}
+.footer-background-pattern {
+  background-image: url("img/bg-pattern-footer-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: -10% -20%;
+}
+.footer-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding-top: 8.6rem;
+  padding-bottom: 8.6rem;
+}
+.footer-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.4rem;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.footer-logo-link:link,
+.footer-logo-link:visited {
+  color: rgb(41, 36, 36);
+  transition: all 0.2s;
+}
+.footer-logo-link:hover,
+.footer-logo-link:active {
+  color: #777;
+}
+.logo-icon {
+  font-size: 30px;
+}
+.footer-hr {
+  width: 100%;
+  margin-bottom: 5.4rem;
+}
+.fotter-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.nav-col {
+  font-size: 1.6rem;
+}
+.footer-link-header {
+  color: black;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+.footer-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-family: "Karla", serif;
+  color: #777;
+  transition: all 0.2s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #333;
+  border-bottom: 1px solid #333;
+}
+/* ****************************************** */
+/* END  */
+/* ****************************************** */
