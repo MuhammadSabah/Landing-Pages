@@ -1,0 +1,234 @@
+:root {
+  --intro-heading-color: rgb(28, 36, 49);
+  --main-background-sections-color: rgb(24, 31, 42);
+  --footer-background-color: rgb(11, 21, 35);
+  --testimonial-background: rgb(32, 42, 60);
+  --button-gradient-1: rgb(101, 226, 217);
+  --button-gradient-2: rgb(51, 158, 204);
+  --red-color: rgb(255, 66, 66);
+  --white-color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 26.8em) {
+  html {
+    font-size: 9px;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    padding: 3rem 2.5rem 0 2.5rem;
+  }
+
+  .header-brand-logo {
+    width: 25%;
+  }
+
+  .nav-list {
+    gap: 2.5rem;
+  }
+
+  /* /////////////////////////////////////////////////////// */
+
+  .hero-section {
+    padding-bottom: 0;
+  }
+
+  .hero-content-div {
+    padding: 2rem 3rem 0 3rem;
+    background-color: var(--main-background-sections-color);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+
+  .img-box {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 4rem; */
+  }
+
+  .hero-illus {
+    position: relative;
+    padding: 0 4rem;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 3.2rem;
+    padding: 4rem 0 0 0;
+
+    margin-bottom: 3rem;
+  }
+
+  .hero-text {
+    padding: 0 0;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    display: inline-block;
+    border: none;
+    padding: 2rem 9.8rem;
+    font-size: 1.6rem;
+  }
+
+  .curve-img {
+    display: none;
+  }
+
+  /* ////////////////////////////////////////////////////////// */
+
+  .features-section {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .flex-container {
+    padding: 0 3rem;
+  }
+
+  .features-content {
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+    column-gap: 0;
+    row-gap: 12rem;
+    padding: 0;
+  }
+
+  .tertiary-heading {
+    font-size: 2.4rem;
+  }
+
+  .feature-text {
+    font-size: 1.8rem;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+
+  .how-it-works--section {
+    padding-bottom: 16rem;
+  }
+
+  .content-box {
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+
+  .how-it-works--heading {
+    font-size: 2.4rem;
+  }
+
+  .above-p,
+  .below-p {
+    font-size: 1.8rem;
+  }
+  .how-it-works-link {
+    font-size: 1.8rem;
+  }
+  .img-illus-2 {
+    width: 100%;
+  }
+
+  /* //////////////////////////////////////////////////////// */
+  .testimonials-section {
+    padding-bottom: 44rem;
+  }
+  .testimonials-list-box {
+    flex-direction: column;
+    padding: 0 6rem;
+    gap: 3rem;
+    position: relative;
+  }
+
+  .testimonial {
+    padding: 2.4rem;
+  }
+
+  .big-quotes {
+    display: none;
+  }
+
+  .first-testimonial::before {
+    content: "";
+    background-image: url("/images/bg-quotes.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -6%;
+    left: 10%;
+  }
+  /* /////////////////////////////////////////////////////////// */
+  .cta-background {
+    margin: 0 3rem;
+  }
+  .cta-content-box {
+    padding: 5rem 4rem;
+  }
+  .cta-header {
+    font-size: 2.4rem;
+  }
+  .cta-text {
+    font-size: 1.8rem;
+  }
+  .form-button-div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3rem;
+  }
+  .cta-form {
+    width: 100%;
+  }
+  .cta-form input {
+    text-align: center;
+    padding: 1.8rem 0;
+  }
+
+  .cta-btn {
+    padding: 1.8rem 0;
+    font-size: 1.8rem;
+  }
+  /* /////////////////////////////////////////////////////////// */
+  .page-footer {
+    padding: 30rem 3rem 12rem 3rem;
+  }
+
+  .footer-logo {
+    width: 60%;
+    margin-bottom: 4rem;
+  }
+  .footer-grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .address-text {
+    font-size: 2rem;
+  }
+  .address-div {
+    margin-bottom: 3rem;
+  }
+  .contact-div {
+    margin-bottom: 10rem;
+  }
+  .additional-info-list {
+    margin-bottom: 6rem;
+  }
+  .additional-info-list:last-of-type {
+    margin-bottom: 10rem;
+  }
+  .phone-number,
+  .email-info {
+    font-size: 2rem;
+  }
+  .additional-info-list a:link,
+  .additional-info-list a:visited {
+    font-size: 2rem;
+  }
+  .social-icons-div {
+    justify-content: center;
+  }
+  /* /////////////////////////// END ////////////////////////////// */
+}
