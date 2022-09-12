@@ -1,0 +1,27 @@
+@media (max-width: 130em) {
+}
+
+@media (max-width: 81.25em) {
+  .grid {
+    column-gap: 3rem;
+  }
+  .website-img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 51.25em) {
+  .header {
+    height: 60vh;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.6rem;
+    align-items: flex-start;
+  }
+}
